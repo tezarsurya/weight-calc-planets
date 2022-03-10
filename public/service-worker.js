@@ -27,6 +27,19 @@
 /* eslint-disable quotes, comma-spacing */
 var PrecacheConfig = [
   ["/site.webmanifest", "2eefc15db4b58758cddc0d666e27d399"],
+  ["/img/earth.png", "8aea9e9c90f948dc97420cd802a7d9fb"],
+  ["/img/jupiter.png", "195449a2a12844898747e78b13f221e8"],
+  ["/img/mars.png", "2845b84de7434c76930c5708f1891fb8"],
+  ["/img/mercury.png", "2f864a83194d470491605d0163159ce2"],
+  ["/img/moon.png", "02572ad4c90d464292d09a67d5b4f078"],
+  ["/img/neptune.png", "815bf6119eec478184b5d7c0dcf9d959"],
+  ["/img/pluto.png", "8edb84c6712f4b42af8d6719c652fdac"],
+  ["/img/saturn.png", "52c583ee8c594efeae3b03cb1cc811c2"],
+  ["/img/stars_poster.png", "dc03ce25ffca444791c054ff588483e0"],
+  ["/img/stars.mp4", "793f575d2d3d464089c28243eaff292a"],
+  ["/img/uranus.png", "378a53250cc34de9a3988d506d32e6df"],
+  ["/img/venus.png", "78c2bc2da3d544478361d05dbbb87305"],
+  ["/index.html", "08b69d9c81284f668432f070de01573a"],
 ];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix =
