@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "MERCURY",
+    "gforce": 3.7
+  },
+  {
+    "id": "2",
+    "name": "VENUS",
+    "gforce": 8.9
+  },
+  {
+    "id": "3",
+    "name": "EARTH",
+    "gforce": 9.8
+  },
+  {
+    "id": "4",
+    "name": "MOON",
+    "gforce": 1.6
+  },
+  {
+    "id": "5",
+    "name": "MARS",
+    "gforce": 3.7
+  },
+  {
+    "id": "6",
+    "name": "JUPITER",
+    "gforce": 24.8
+  },
+  {
+    "id": "7",
+    "name": "SATURN",
+    "gforce": 10.4
+  },
+  {
+    "id": "8",
+    "name": "URANUS",
+    "gforce": 8.7
+  },
+  {
+    "id": "9",
+    "name": "NEPTUNE",
+    "gforce": 11
+  },
+  {
+    "id": "10",
+    "name": "PLUTO",
+    "gforce": 0.6
+  }
+]
