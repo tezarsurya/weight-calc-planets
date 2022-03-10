@@ -73,7 +73,7 @@ export default function Home() {
           Calculate Weight
         </button>
       </form>
-      <div className="flex justify-center rounded-md w-11/12 sm:w-3/4 mt-8 py-8 px-6 space-x-4 bg-slate-600 bg-opacity-30">
+      <div className="flex justify-center rounded-md w-11/12 lg:w-3/4 mt-8 py-8 px-6 space-x-4 bg-slate-600 bg-opacity-30">
         {initial ? (
           <Planet name="earth" />
         ) : invalids.mass ? (
