@@ -42,6 +42,7 @@ export default function Home() {
         autoPlay
         muted
         loop
+        poster="/img/stars_poster.png"
         className="absolute top-0 left-0 object-cover w-full h-full -z-10"
       >
         <source src="/img/stars.mp4" />
