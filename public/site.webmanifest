@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Calculate Weight on Planets",
+  "short_name": "Planets",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,9 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "theme_color": "#1e3a8a",
+  "background_color": "#1e3a8a",
+  "display": "standalone",
+  "start_url": "https://weight-calc-planets.vercel.app",
+  "prefer_related_applications": true
 }
