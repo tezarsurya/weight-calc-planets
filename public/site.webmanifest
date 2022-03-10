@@ -20,7 +20,7 @@
   ],
   "theme_color": "#1e3a8a",
   "background_color": "#1e3a8a",
-  "display": "fullscreen",
+  "display": "standalone",
   "start_url": "https://weight-calc-planets.vercel.app",
   "prefer_related_applications": true
 }
