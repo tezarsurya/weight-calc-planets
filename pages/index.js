@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
 import Planet from "../components/Planet";
 import WeightResult from "../components/WeightResult";
@@ -33,6 +34,9 @@ export default function Home() {
 
   return (
     <main className="Home flex flex-col items-center min-h-screen p-3 bg-main-bg bg-contain bg-repeat py-8">
+      <Head>
+        <title>Calculate object weight on planets</title>
+      </Head>
       <h1 className="font-sans font-semibold text-xl sm:text-3xl text-center text-gray-300">
         Calculate weight of an object on a planet
       </h1>
