@@ -35,6 +35,7 @@ export default function Home() {
   return (
     <main className="Home flex flex-col relative items-center min-h-screen p-3 bg-contain bg-repeat py-8">
       <Head>
+        <link rel="manifest" href="/site.webmanifest" />
         <title>Calculate object weight on planets</title>
       </Head>
       <video
