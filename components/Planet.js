@@ -6,7 +6,7 @@ function Planet({ name }) {
 
   useEffect(() => {
     setLoading(true);
-  });
+  }, [name]);
 
   return (
     <div className="flex relative justify-center items-center min-w-[200px] min-h-[200px] lg:min-w-[300px] lg:min-h-[300px]">
