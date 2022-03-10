@@ -33,10 +33,19 @@ export default function Home() {
   };
 
   return (
-    <main className="Home flex flex-col items-center min-h-screen p-3 bg-main-bg bg-contain bg-repeat py-8">
+    <main className="Home flex flex-col relative items-center min-h-screen p-3 bg-contain bg-repeat py-8">
       <Head>
         <title>Calculate object weight on planets</title>
       </Head>
+      <video
+        playsInline
+        autoPlay
+        muted
+        loop
+        className="absolute top-0 left-0 object-cover w-full h-full -z-10"
+      >
+        <source src="/img/stars.mp4" />
+      </video>
       <h1 className="font-sans font-semibold text-xl sm:text-3xl text-center text-gray-300">
         Calculate weight of an object on a planet
       </h1>
@@ -68,20 +77,20 @@ export default function Home() {
         </select>
         <button
           type="submit"
-          className="btn text-gray-200 bg-indigo-500 hover:bg-indigo-700 active:bg-indigo-800 active:text-gray-300"
+          className="btn text-gray-200 bg-blue-700 hover:bg-blue-800 active:bg-blue-900 active:text-gray-300"
         >
           Calculate Weight
         </button>
       </form>
-      <div className="flex justify-center rounded-md w-11/12 lg:w-3/4 mt-8 py-8 px-6 space-x-4 bg-slate-600 bg-opacity-30">
+      <div className="flex justify-center rounded-md w-11/12 lg:w-3/4 mt-8 py-8 px-6 space-x-4 bg-blue-900 bg-opacity-30">
         {initial ? (
           <Planet name="earth" />
         ) : invalids.mass ? (
-          <div className="flex justify-center py-4 px-16 rounded-md font-sans text-gray-200 bg-slate-600 bg-opacity-60">
+          <div className="flex justify-center py-4 px-16 rounded-md font-sans text-gray-200 bg-blue-900 bg-opacity-60">
             Mass is required
           </div>
         ) : invalids.planet ? (
-          <div className="flex justify-center py-4 px-16 rounded-md font-sans text-gray-200 bg-slate-600 bg-opacity-60">
+          <div className="flex justify-center py-4 px-16 rounded-md font-sans text-gray-200 bg-blue-900 bg-opacity-60">
             You did not choose a planet yet
           </div>
         ) : (

@@ -6,7 +6,7 @@
 
 @layer components {
   .form-input {
-    @apply py-2 px-3 outline-none rounded-md font-sans font-semibold text-gray-600 transition ease-in-out delay-75 focus:transition-all focus:outline-indigo-500;
+    @apply py-2 px-3 outline-none rounded-md font-sans font-semibold text-gray-600 transition ease-in-out delay-75 focus:transition-all focus:outline-blue-700;
   }
 
   .btn {
