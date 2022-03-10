@@ -10,6 +10,13 @@ function Planet({ name }) {
 
   return (
     <div className="flex relative justify-center items-center min-w-[200px] min-h-[200px] lg:min-w-[300px] lg:min-h-[300px]">
+      <Image
+        src={`/img/${name.toLowerCase()}.png`}
+        layout="fill"
+        alt={name}
+        priority
+        onLoadingComplete={() => setLoading(false)}
+      />
       {loading && (
         <svg
           width="150px"
@@ -28,13 +35,6 @@ function Planet({ name }) {
           />
         </svg>
       )}
-      <Image
-        src={`/img/${name.toLowerCase()}.png`}
-        layout="fill"
-        alt={name}
-        priority
-        onLoadingComplete={() => setLoading(false)}
-      />
     </div>
   );
 }
